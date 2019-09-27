@@ -1,14 +1,14 @@
 # SITE CONFIGURATION
-baseurl: "/Type-on-Strap"
-url: "https://sylhare.github.io"
-title: Type on Strap # site's title
-description: "A website with blog posts and pages" # used by search engines
+baseurl: ""
+url: "https://fengjiang.dev/"
+title: Feng Jiang # site's title
+description: "Feng Jiang's Software Engineering Blog" # used by search engines
 
 defaults:
   - scope:
       path: "" # an empty string here means all necessary files are in the project
     values:
-      image: assets/img/triangle.png # seo tag
+      image: "assets/img/avatars/fengjiang_avatar.jpeg" # seo tag
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
@@ -18,7 +18,7 @@ theme_settings:
   favicon: assets/favicon.ico
 
   # Header and footer text
-  header_text: Change header text in <code>_config.yml</code>
+  header_text: Welcome to Feng's Blog
   header_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
     Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
@@ -27,18 +27,18 @@ theme_settings:
   excerpt: true # Or "truncate" (first 250 characters), "false" to disable
 
   # Icons
-  rss: true  # Make sure you created a feed.xml with feed.xml layout
-  email_address: # Full email address, e.g. "sam@example.com"
+  rss: false  # Make sure you created a feed.xml with feed.xml layout
+  email_address: fjiang91@gmail.com # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
   facebook:
   flickr:
   gitlab:
-  github: "sylhare"
+  github: "fjiang91"
   instagram:
   keybase:
-  linkedin:  # Full URL
+  linkedin:  https://www.linkedin.com/in/feng-jiang/ # Full URL
   pinterest:
   reddit:
   soundcloud:
@@ -63,7 +63,7 @@ theme_settings:
     wordpress:
     email: true
 
-  # Scripts / Features 
+  # Scripts / Features
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
   katex: true # Enable if using math markup
@@ -94,14 +94,10 @@ paginate_path: "blog/page:num"
 
 # AUTHORS
 authors:
-  mhagnumdw: # author-id
-    name: MhagnumDw
-    avatar: "assets/img/avatars/mhagnumdw_avatar.jpg"
-    url:
-  sylhare:
-    name: Sylhare
-    avatar: "assets/img/avatars/sylhare_avatar.png"
-    url: "https://github.com/sylhare"
+  fjiang91:
+    name: Feng Jiang
+    avatar: "assets/img/avatars/fengjiang_avatar.jpeg"
+    url: "https://github.com/fjiang91"
 
 # PORTFOLIO
 collections:
