@@ -65,7 +65,7 @@ theme_settings:
 
   # Scripts / Features
   google_analytics: UA-148917641-1 # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname: fjiang91
+  disqus_shortname: fengjiang-dev
   katex: true # Enable if using math markup
 
   # Localization strings
