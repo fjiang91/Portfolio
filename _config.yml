@@ -24,7 +24,7 @@ theme_settings:
     Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
   # Blog
-  excerpt: true # Or "truncate" (first 250 characters), "false" to disable
+  excerpt: truncate # true Or "truncate" (first 250 characters), "false" to disable
 
   # Icons
   rss: false  # Make sure you created a feed.xml with feed.xml layout
